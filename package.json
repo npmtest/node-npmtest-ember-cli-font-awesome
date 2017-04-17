@@ -1,1 +1,40 @@
-{     "devDependencies": {         "ember-cli-font-awesome": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-ember-cli-font-awesome",     "homepage": "https://github.com/npmtest/node-npmtest-ember-cli-font-awesome",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-ember-cli-font-awesome.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "test coverage for [ember-cli-font-awesome (v1.5.2)](https://github.com/martndemus/ember-cli-font-awesome#readme) [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-font-awesome.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-font-awesome) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-font-awesome.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-font-awesome)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "ember-cli-font-awesome": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-ember-cli-font-awesome",
+    "keywords": [
+        "coverage",
+        "test",
+        "ember-cli-font-awesome"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_ember_cli_font_awesome.js",
+    "name": "npmtest-ember-cli-font-awesome",
+    "nameAlias": "npmtest_ember_cli_font_awesome",
+    "nameOriginal": "npmtest-ember-cli-font-awesome",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-ember-cli-font-awesome.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
