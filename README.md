@@ -1,4 +1,7 @@
-# test coverage for  [ember-cli-font-awesome (v1.5.2)](https://github.com/martndemus/ember-cli-font-awesome#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-font-awesome.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-font-awesome) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-font-awesome.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-font-awesome)
+# npmtest-ember-cli-font-awesome
+
+#### test coverage for  [ember-cli-font-awesome (v1.5.2)](https://github.com/martndemus/ember-cli-font-awesome#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-font-awesome.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-font-awesome) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-font-awesome.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-font-awesome)
+
 #### An ember-cli addon for using Font Awesome icons in Ember applications.
 
 [![NPM](https://nodei.co/npm/ember-cli-font-awesome.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ember-cli-font-awesome)
