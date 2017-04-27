@@ -1,6 +1,6 @@
 # npmtest-ember-cli-font-awesome
 
-#### test coverage for  [ember-cli-font-awesome (v1.5.2)](https://github.com/martndemus/ember-cli-font-awesome#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-font-awesome.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-font-awesome) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-font-awesome.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-font-awesome)
+#### basic test coverage for  [ember-cli-font-awesome (v1.5.2)](https://github.com/martndemus/ember-cli-font-awesome#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-font-awesome.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-font-awesome) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-font-awesome.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-font-awesome)
 
 #### An ember-cli addon for using Font Awesome icons in Ember applications.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-ember-cli-font-awesome/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-ember-cli-font-awesome/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ember-cli-font-awesome/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ember-cli-font-awesome/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-cli-font-awesome/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-cli-font-awesome/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-ember-cli-font-awesome/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-ember-cli-font-awesome/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-cli-font-awesome/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-cli-font-awesome/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-ember-cli-font-awesome/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ember-cli-font-awesome/build/coverage.html/index.html)
 
@@ -110,7 +110,8 @@
         "start": "ember server",
         "test": "ember try:testall"
     },
-    "version": "1.5.2"
+    "version": "1.5.2",
+    "bin": {}
 }
 ```
 
